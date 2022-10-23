@@ -1,6 +1,7 @@
 This is a custom fork of Boost. It includes the following changes:
 
-- [Add wallet sign to boost cli](https://github.com/jsmetana/boost/commit/4c683515adbcbda8ca4db3cad61bb39ecd06c655)
+- [Add wallet sign to boost cli](https://github.com/jsmetana/boost/tree/cmd-wallet-sign)
+- [Add AppImage building](https://github.com/jsmetana/boost/tree/appimage)
 
 # Boost
 
