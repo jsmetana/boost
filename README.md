@@ -1,3 +1,7 @@
+This is a custom fork of Boost. It includes the following changes:
+
+- [Add wallet sign to boost cli](https://github.com/jsmetana/boost/commit/4c683515adbcbda8ca4db3cad61bb39ecd06c655)
+
 # Boost
 
 Boost is a tool for Filecoin storage providers to manage data storage and retrievals on Filecoin.
