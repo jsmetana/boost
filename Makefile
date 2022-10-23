@@ -139,6 +139,13 @@ build: react build-go
 calibnet: react calibnet-go
 .PHONY: calibnet
 
+appimage: boost
+	rm -rf appimage-builder-cache || true
+	rm -rf AppDir/ || true
+	mkdir -p AppDir/usr/bin
+	cp ./boost AppDir/usr/bin/
+	appimage-builder --skip-test
+
 install: install-boost install-devnet
 
 install-boost:
