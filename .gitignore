@@ -21,3 +21,6 @@ dev.gen
 localnet.json
 lotus-daemon.log
 lotus-miner.log
+AppDir/
+*.AppImage
+appimage-build/
